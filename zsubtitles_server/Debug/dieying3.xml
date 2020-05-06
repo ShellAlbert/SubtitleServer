@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated on 2006-09-013 by jhurst+emacs -->
+<DCSubtitle Version="1.0"
+     xmlns="http://digicine.com/xml-schema/ad-hoc/ti-dc-subtitle"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://digicine.com/xml-schema/ad-hoc/ti-dc-subtitle ../ti.xsd">
+  <SubtitleID>fd821d73-3cc3-46b2-aacc-44e3a7f3f525</SubtitleID>
+  <MovieTitle>Comprehensive Test Reel</MovieTitle>
+  <ReelNumber>1</ReelNumber>
+  <Language>English</Language>
+
+  <Subtitle SpotNumber="1" TimeIn="00:00:40:000" TimeOut="00:00:44:200">
+	<Text HAlign="left" HPosition="10" VAlign="top" VPosition="10">日本,可爱的民族!</Text>
+	<Image HAlign="left" HPosition="22" VAlign="bottom" VPosition="22">b.png</Image>
+	
+	<Text HAlign="right" HPosition="20" VAlign="top" VPosition="100">字幕^_^测试</Text>
+
+	<Text HAlign="right" HPosition="0" VAlign="bottom" VPosition="0">RightBottomCorner</Text>
+	<Text HAlign="center" HPosition="0" VAlign="center" VPosition="0">*The$Sun$God*</Text>
+
+  </Subtitle>
+
+
+</DCSubtitle>

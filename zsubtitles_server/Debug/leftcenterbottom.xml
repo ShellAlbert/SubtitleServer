@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated on 2006-09-013 by jhurst+emacs -->
+<DCSubtitle Version="1.0"
+     xmlns="http://digicine.com/xml-schema/ad-hoc/ti-dc-subtitle"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://digicine.com/xml-schema/ad-hoc/ti-dc-subtitle ../ti.xsd">
+  <SubtitleID>fd821d73-3cc3-46b2-aacc-44e3a7f3f525</SubtitleID>
+  <MovieTitle>Comprehensive Test Reel</MovieTitle>
+  <ReelNumber>1</ReelNumber>
+  <Language>English</Language>
+
+  <Subtitle SpotNumber="1" TimeIn="00:00:10:000" TimeOut="00:00:10:200">
+    <Text HAlign="left" 	HPosition="0" VAlign="top" 	VPosition="0">左上</Text>
+    <Text HAlign="center" 	HPosition="0" VAlign="top" 	VPosition="0">中上</Text>
+    <Text HAlign="right" 	HPosition="0" VAlign="top" 	VPosition="0">右上</Text>
+    <Text HAlign="left" 	HPosition="0" VAlign="center" VPosition="0">左中</Text>
+    <Text HAlign="center" 	HPosition="0" VAlign="center" VPosition="0">中中</Text>
+    <Text HAlign="right" 	HPosition="0" VAlign="center" VPosition="0">右中</Text>
+    <Text HAlign="left" 	HPosition="0" VAlign="bottom" VPosition="0">左下</Text>
+    <Text HAlign="center" 	HPosition="0" VAlign="bottom" VPosition="0">中下</Text>
+    <Text HAlign="right" 	HPosition="0" VAlign="bottom" VPosition="0">右下</Text>
+  </Subtitle>
+
+</DCSubtitle>

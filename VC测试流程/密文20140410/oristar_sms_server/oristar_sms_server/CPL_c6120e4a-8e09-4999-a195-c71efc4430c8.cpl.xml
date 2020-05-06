@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?><CompositionPlaylist xmlns="http://www.smpte-ra.org/schemas/429-7/2006/CPL">
+  <Id>urn:uuid:c6120e4a-8e09-4999-a195-c71efc4430c8</Id>
+  <IssueDate>2013-11-14T23:12:54+00:00</IssueDate>
+  <Issuer>oristar@localhost</Issuer>
+  <Creator>oristar</Creator>
+  <ContentTitleText>dieying3_xyz_ct</ContentTitleText>
+  <ContentKind>test</ContentKind>
+  <ContentVersion>
+    <Id>urn:uuid:b9146e7a-b56a-4e48-a447-75d3b7851df3</Id>
+    <LabelText>Default random version label</LabelText>
+  </ContentVersion>
+  <RatingList/>
+  <ReelList>
+    <Reel>
+      <Id>urn:uuid:9222b550-959a-4917-9698-f19f213b8861</Id>
+      <AssetList>
+        <MainPicture>
+          <Id>urn:uuid:5c9d95cf-6f56-4e2c-b31c-1978306a02f4</Id>
+          <EditRate>24 1</EditRate>
+          <IntrinsicDuration>3437</IntrinsicDuration>
+          <EntryPoint>0</EntryPoint>
+          <Duration>3437</Duration>
+          <KeyId>urn:uuid:007203b9-8334-5b84-bcb0-c928e8bab01b</KeyId>
+          <Hash>IkoMNJ+DvQIu6qJLzpwhDvkFxfI=</Hash>
+          <FrameRate>24 1</FrameRate>
+          <ScreenAspectRatio>2048 1080</ScreenAspectRatio>
+        </MainPicture>
+        <MainSound>
+          <Id>urn:uuid:c6041d46-5e00-443f-9683-f11ea2d559f7</Id>
+          <EditRate>24 1</EditRate>
+          <IntrinsicDuration>3437</IntrinsicDuration>
+          <EntryPoint>0</EntryPoint>
+          <Duration>3437</Duration>
+          <KeyId>urn:uuid:25091308-b27e-d5bf-19da-ec4a1b32a6be</KeyId>
+          <Hash>Z5yPH8U7YC7S0dS02NKjv/Vzd6Y=</Hash>
+        </MainSound>
+      </AssetList>
+    </Reel>
+  </ReelList>
+</CompositionPlaylist>

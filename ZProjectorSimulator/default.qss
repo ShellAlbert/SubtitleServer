@@ -1,0 +1,26 @@
+QMainWindow,QTableWidget
+{
+    border:1px solid black;
+    background-color:qlineargradient(x1:0,y1:0,x2:1,y2:0,
+    stop:0 #afead3,stop:0.5 #75eabd,stop:1 #51c196);
+}
+QPushButton
+{
+    font-size:16px;
+    padding:4px;
+    border:2px solid green;
+    border-radius:6px;
+}
+
+QPushButton:hover
+{
+    font-size:18px;
+    padding:2px;
+    border:2px solid blue;
+    border-radius:4px;
+}
+
+QWidget
+{
+    font-size:20px;
+}

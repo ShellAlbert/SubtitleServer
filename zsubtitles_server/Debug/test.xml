@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated on 2006-09-013 by jhurst+emacs -->
+<DCSubtitle Version="1.0">
+  <SubtitleID>a00ccb11-62d4-46b1-bd05-c14b86bea9d7</SubtitleID>
+  <MovieTitle>Dieyingchongchong3</MovieTitle>
+  <ReelNumber>1</ReelNumber>
+  <Language>Chinese</Language>
+  <LoadFont Id="simhei" URI="wqy-microhei.ttc" />
+  <Font Id="simhei" Color="9F123456" Weight="normal" Size="40" >
+
+  <Subtitle SpotNumber="1" TimeIn="00:00:06:225" TimeOut="00:00:07:105">
+    <Text VAlign="bottom" VPosition="22">我们正在测试字幕</Text>
+  </Subtitle>
+
+  <Subtitle SpotNumber="2" TimeIn="00:00:07:200" TimeOut="00:00:09:076">
+    <Text VAlign="bottom" VPosition="22">限于屏幕一行八个</Text>
+  </Subtitle>
+
+  <Subtitle SpotNumber="3" TimeIn="00:00:09:236" TimeOut="00:00:10:075">
+    <Text VAlign="bottom" VPosition="22">现在看到都是点阵</Text>
+  </Subtitle>
+  
+    <Subtitle SpotNumber="3" TimeIn="00:00:09:236" TimeOut="00:00:10:075">
+    <Text VAlign="bottom" VPosition="22">做了矩阵居中处理</Text>
+  </Subtitle>
+  
+      <Subtitle SpotNumber="3" TimeIn="00:00:09:236" TimeOut="00:00:10:075">
+    <Text VAlign="bottom" VPosition="22">字幕为40*40</Text>
+  </Subtitle>
+
+  <Subtitle SpotNumber="4" TimeIn="00:00:10:195" TimeOut="00:00:11:051">
+    <Text VAlign="bottom" VPosition="22">每个点为ARGB</Text>
+  </Subtitle>
+
+  <Subtitle SpotNumber="5" TimeIn="00:00:11:124" TimeOut="00:00:12:000">
+    <Text VAlign="bottom" VPosition="22">第一测试纯数字</Text>
+  </Subtitle>
+
+  <Subtitle SpotNumber="6" TimeIn="00:00:13:040" TimeOut="00:00:15:020">
+    <Text VAlign="bottom" VPosition="22">01234567</Text>
+  </Subtitle>
+
+  <Subtitle SpotNumber="7" TimeIn="00:00:17:080" TimeOut="00:00:18:150">
+    <Text VAlign="bottom" VPosition="22">第二测试英文字符</Text>
+  </Subtitle>
+
+  <Subtitle SpotNumber="8" TimeIn="00:00:18:170" TimeOut="00:00:20:051">
+    <Text VAlign="bottom" VPosition="22">AbCdEfGh</Text>
+  </Subtitle>
+
+  <Subtitle SpotNumber="9" TimeIn="00:00:20:049" TimeOut="00:00:20:193">
+    <Text VAlign="bottom" VPosition="22">第三英文汉字混合</Text>
+  </Subtitle>
+
+  <Subtitle SpotNumber="10" TimeIn="00:00:20:198" TimeOut="00:00:21:126">
+    <Text VAlign="bottom" VPosition="22">中国*China</Text>
+  </Subtitle>
+
+  <Subtitle SpotNumber="11" TimeIn="00:00:21:224" TimeOut="00:00:22:076">
+    <Text VAlign="bottom" VPosition="22">日本@Japan</Text>
+  </Subtitle>
+
+    <Subtitle SpotNumber="12" TimeIn="00:00:22:149" TimeOut="00:00:23:076">
+    <Text VAlign="bottom" VPosition="22">第四特殊标点符号</Text>
+  </Subtitle>
+  
+  <Subtitle SpotNumber="12" TimeIn="00:00:22:149" TimeOut="00:00:23:076">
+    <Text VAlign="bottom" VPosition="22">~!@#$%^*</Text>
+  </Subtitle>
+
+  <Subtitle SpotNumber="13" TimeIn="00:00:23:099" TimeOut="00:00:24:026">
+    <Text VAlign="bottom" VPosition="22">点阵数据量是很大</Text>
+  </Subtitle>
+
+  <Subtitle SpotNumber="14" TimeIn="00:00:24:173" TimeOut="00:00:26:000">
+    <Text VAlign="bottom" VPosition="22">需要压缩才能传输</Text>
+  </Subtitle>
+
+  <Subtitle SpotNumber="15" TimeIn="00:00:26:048" TimeOut="00:00:27:000">
+    <Text VAlign="bottom" VPosition="22">要使用RLE算法</Text>
+  </Subtitle>
+
+  <Subtitle SpotNumber="16" TimeIn="00:00:27:000" TimeOut="00:00:28:125">
+    <Text VAlign="bottom" VPosition="22">FPGA要解压缩</Text>
+  </Subtitle>
+  
+  <Subtitle SpotNumber="17" TimeIn="00:00:29:048" TimeOut="00:00:30:125">
+    <Text VAlign="bottom" VPosition="22">测试已经结束了!</Text>
+  </Subtitle>
+</Font>
+</DCSubtitle>

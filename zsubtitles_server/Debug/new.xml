@@ -1,0 +1,160 @@
+< ? xml version = "1.0" encoding = "UTF-8" ? >-<DCSubtitle Version =
+  "1.0" >< SubtitleID > b4588d1e - bd68 - 40f f - a5bb - 547 c33ca7c41 <
+  /SubtitleID >< MovieTitle >< DYATLOV >< /MovieTitle >< ReelNumber > TR <
+  /ReelNumber >< Language > English < /Language > -<Subtitle FadeDownTime =
+  "20" FadeUpTime = "20" TimeOut = "00:00:04:114" TimeIn =
+  "00:00:03:041" SpotNumber = "1" >< Image VPosition = "5.7" VAlign =
+  "bottom" HAlign =
+  "center" > DYATLOV TR_1.png < /Image >< /Subtitle >
+  -<Subtitle FadeDownTime = "20" FadeUpTime = "20" TimeOut =
+  "00:00:12:020" TimeIn = "00:00:10:198" SpotNumber = "2" >< Image VPosition =
+  "5.7" VAlign = "bottom" HAlign =
+  "center" > DYATLOV TR_2.png < /Image >< /Subtitle >
+  -<Subtitle FadeDownTime = "20" FadeUpTime = "20" TimeOut =
+  "00:00:13:145" TimeIn = "00:00:12:052" SpotNumber = "3" >< Image VPosition =
+  "5.7" VAlign = "bottom" HAlign =
+  "center" > DYATLOV TR_3.png < /Image >< /Subtitle >
+  -<Subtitle FadeDownTime = "20" FadeUpTime = "20" TimeOut =
+  "00:00:16:031" TimeIn = "00:00:13:177" SpotNumber = "4" >< Image VPosition =
+  "5.7" VAlign = "bottom" HAlign =
+  "center" > DYATLOV TR_4.png < /Image >< /Subtitle >
+  -<Subtitle FadeDownTime = "20" FadeUpTime = "20" TimeOut =
+  "00:00:19:010" TimeIn = "00:00:16:062" SpotNumber = "5" >< Image VPosition =
+  "5.7" VAlign = "bottom" HAlign =
+  "center" > DYATLOV TR_5.png < /Image >< /Subtitle >
+  -<Subtitle FadeDownTime = "20" FadeUpTime = "20" TimeOut =
+  "00:00:22:010" TimeIn = "00:00:19:041" SpotNumber = "6" >< Image VPosition =
+  "5.7" VAlign = "bottom" HAlign =
+  "center" > DYATLOV TR_6.png < /Image >< /Subtitle >
+  -<Subtitle FadeDownTime = "20" FadeUpTime = "20" TimeOut =
+  "00:00:25:020" TimeIn = "00:00:22:041" SpotNumber = "7" >< Image VPosition =
+  "5.7" VAlign = "bottom" HAlign =
+  "center" > DYATLOV TR_7.png < /Image >< /Subtitle >
+  -<Subtitle FadeDownTime = "20" FadeUpTime = "20" TimeOut =
+  "00:00:27:031" TimeIn = "00:00:25:052" SpotNumber = "8" >< Image VPosition =
+  "5.7" VAlign = "bottom" HAlign =
+  "center" > DYATLOV TR_8.png < /Image >< /Subtitle >
+  -<Subtitle FadeDownTime = "20" FadeUpTime = "20" TimeOut =
+  "00:00:28:239" TimeIn = "00:00:27:062" SpotNumber = "9" >< Image VPosition =
+  "5.7" VAlign = "bottom" HAlign =
+  "center" > DYATLOV TR_9.png < /Image >< /Subtitle >
+  -<Subtitle FadeDownTime = "20" FadeUpTime = "20" TimeOut =
+  "00:00:31:125" TimeIn = "00:00:29:020" SpotNumber =
+  "10" >< Image VPosition = "5.7" VAlign = "bottom" HAlign =
+  "center" > DYATLOV TR_10.png < /Image >< /Subtitle >
+  -<Subtitle FadeDownTime = "20" FadeUpTime = "20" TimeOut =
+  "00:00:34:135" TimeIn = "00:00:31:156" SpotNumber =
+  "11" >< Image VPosition = "5.7" VAlign = "bottom" HAlign =
+  "center" > DYATLOV TR_11.png < /Image >< /Subtitle >
+  -<Subtitle FadeDownTime = "20" FadeUpTime = "20" TimeOut =
+  "00:00:36:125" TimeIn = "00:00:34:187" SpotNumber =
+  "12" >< Image VPosition = "5.7" VAlign = "bottom" HAlign =
+  "center" > DYATLOV TR_12.png < /Image >< /Subtitle >
+  -<Subtitle FadeDownTime = "20" FadeUpTime = "20" TimeOut =
+  "00:00:39:083" TimeIn = "00:00:38:062" SpotNumber =
+  "13" >< Image VPosition = "5.7" VAlign = "bottom" HAlign =
+  "center" > DYATLOV TR_13.png < /Image >< /Subtitle >
+  -<Subtitle FadeDownTime = "20" FadeUpTime = "20" TimeOut =
+  "00:00:42:062" TimeIn = "00:00:39:114" SpotNumber =
+  "14" >< Image VPosition = "5.7" VAlign = "bottom" HAlign =
+  "center" > DYATLOV TR_14.png < /Image >< /Subtitle >
+  -<Subtitle FadeDownTime = "20" FadeUpTime = "20" TimeOut =
+  "00:00:45:218" TimeIn = "00:00:42:093" SpotNumber =
+  "15" >< Image VPosition = "5.7" VAlign = "bottom" HAlign =
+  "center" > DYATLOV TR_15.png < /Image >< /Subtitle >
+  -<Subtitle FadeDownTime = "20" FadeUpTime = "20" TimeOut =
+  "00:00:47:198" TimeIn = "00:00:46:104" SpotNumber =
+  "16" >< Image VPosition = "5.7" VAlign = "bottom" HAlign =
+  "center" > DYATLOV TR_16.png < /Image >< /Subtitle >
+  -<Subtitle FadeDownTime = "20" FadeUpTime = "20" TimeOut =
+  "00:00:49:156" TimeIn = "00:00:47:229" SpotNumber =
+  "17" >< Image VPosition = "5.7" VAlign = "bottom" HAlign =
+  "center" > DYATLOV TR_17.png < /Image >< /Subtitle >
+  -<Subtitle FadeDownTime = "20" FadeUpTime = "20" TimeOut =
+  "00:00:52:135" TimeIn = "00:00:49:208" SpotNumber =
+  "18" >< Image VPosition = "5.7" VAlign = "bottom" HAlign =
+  "center" > DYATLOV TR_18.png < /Image >< /Subtitle >
+  -<Subtitle FadeDownTime = "20" FadeUpTime = "20" TimeOut =
+  "00:00:55:010" TimeIn = "00:00:53:052" SpotNumber =
+  "19" >< Image VPosition = "5.7" VAlign = "bottom" HAlign =
+  "center" > DYATLOV TR_19.png < /Image >< /Subtitle >
+  -<Subtitle FadeDownTime = "20" FadeUpTime = "20" TimeOut =
+  "00:00:57:218" TimeIn = "00:00:55:041" SpotNumber =
+  "20" >< Image VPosition = "5.7" VAlign = "bottom" HAlign =
+  "center" > DYATLOV TR_20.png < /Image >< /Subtitle >
+  -<Subtitle FadeDownTime = "20" FadeUpTime = "20" TimeOut =
+  "00:01:01:093" TimeIn = "00:01:00:062" SpotNumber =
+  "21" >< Image VPosition = "5.7" VAlign = "bottom" HAlign =
+  "center" > DYATLOV TR_21.png < /Image >< /Subtitle >
+  -<Subtitle FadeDownTime = "20" FadeUpTime = "20" TimeOut =
+  "00:01:03:177" TimeIn = "00:01:01:125" SpotNumber =
+  "22" >< Image VPosition = "5.7" VAlign = "bottom" HAlign =
+  "center" > DYATLOV TR_22.png < /Image >< /Subtitle >
+  -<Subtitle FadeDownTime = "20" FadeUpTime = "20" TimeOut =
+  "00:01:05:229" TimeIn = "00:01:04:208" SpotNumber =
+  "23" >< Image VPosition = "5.7" VAlign = "bottom" HAlign =
+  "center" > DYATLOV TR_23.png < /Image >< /Subtitle >
+  -<Subtitle FadeDownTime = "20" FadeUpTime = "20" TimeOut =
+  "00:01:08:041" TimeIn = "00:01:06:093" SpotNumber =
+  "24" >< Image VPosition = "5.7" VAlign = "bottom" HAlign =
+  "center" > DYATLOV TR_24.png < /Image >< /Subtitle >
+  -<Subtitle FadeDownTime = "20" FadeUpTime = "20" TimeOut =
+  "00:01:09:041" TimeIn = "00:01:08:073" SpotNumber =
+  "25" >< Image VPosition = "5.7" VAlign = "bottom" HAlign =
+  "center" > DYATLOV TR_25.png < /Image >< /Subtitle >
+  -<Subtitle FadeDownTime = "20" FadeUpTime = "20" TimeOut =
+  "00:01:11:177" TimeIn = "00:01:09:073" SpotNumber =
+  "26" >< Image VPosition = "5.7" VAlign = "bottom" HAlign =
+  "center" > DYATLOV TR_26.png < /Image >< /Subtitle >
+  -<Subtitle FadeDownTime = "20" FadeUpTime = "20" TimeOut =
+  "00:01:14:198" TimeIn = "00:01:11:208" SpotNumber =
+  "27" >< Image VPosition = "5.7" VAlign = "bottom" HAlign =
+  "center" > DYATLOV TR_27.png < /Image >< /Subtitle >
+  -<Subtitle FadeDownTime = "20" FadeUpTime = "20" TimeOut =
+  "00:01:17:145" TimeIn = "00:01:15:198" SpotNumber =
+  "28" >< Image VPosition = "5.7" VAlign = "bottom" HAlign =
+  "center" > DYATLOV TR_28.png < /Image >< /Subtitle >
+  -<Subtitle FadeDownTime = "20" FadeUpTime = "20" TimeOut =
+  "00:01:19:062" TimeIn = "00:01:17:239" SpotNumber =
+  "29" >< Image VPosition = "5.7" VAlign = "bottom" HAlign =
+  "center" > DYATLOV TR_29.png < /Image >< /Subtitle >
+  -<Subtitle FadeDownTime = "20" FadeUpTime = "20" TimeOut =
+  "00:01:20:208" TimeIn = "00:01:19:125" SpotNumber =
+  "30" >< Image VPosition = "5.7" VAlign = "bottom" HAlign =
+  "center" > DYATLOV TR_30.png < /Image >< /Subtitle >
+  -<Subtitle FadeDownTime = "20" FadeUpTime = "20" TimeOut =
+  "00:01:22:135" TimeIn = "00:01:20:239" SpotNumber =
+  "31" >< Image VPosition = "5.7" VAlign = "bottom" HAlign =
+  "center" > DYATLOV TR_31.png < /Image >< /Subtitle >
+  -<Subtitle FadeDownTime = "20" FadeUpTime = "20" TimeOut =
+  "00:01:24:114" TimeIn = "00:01:22:166" SpotNumber =
+  "32" >< Image VPosition = "5.7" VAlign = "bottom" HAlign =
+  "center" > DYATLOV TR_32.png < /Image >< /Subtitle >
+  -<Subtitle FadeDownTime = "20" FadeUpTime = "20" TimeOut =
+  "00:01:26:187" TimeIn = "00:01:24:198" SpotNumber =
+  "33" >< Image VPosition = "5.7" VAlign = "bottom" HAlign =
+  "center" > DYATLOV TR_33.png < /Image >< /Subtitle >
+  -<Subtitle FadeDownTime = "20" FadeUpTime = "20" TimeOut =
+  "00:01:29:020" TimeIn = "00:01:27:177" SpotNumber =
+  "34" >< Image VPosition = "5.7" VAlign = "bottom" HAlign =
+  "center" > DYATLOV TR_34.png < /Image >< /Subtitle >
+  -<Subtitle FadeDownTime = "20" FadeUpTime = "20" TimeOut =
+  "00:01:30:093" TimeIn = "00:01:29:052" SpotNumber =
+  "35" >< Image VPosition = "5.7" VAlign = "bottom" HAlign =
+  "center" > DYATLOV TR_35.png < /Image >< /Subtitle >
+  -<Subtitle FadeDownTime = "20" FadeUpTime = "20" TimeOut =
+  "00:01:33:093" TimeIn = "00:01:31:031" SpotNumber =
+  "36" >< Image VPosition = "5.7" VAlign = "bottom" HAlign =
+  "center" > DYATLOV TR_36.png < /Image >< /Subtitle >
+  -<Subtitle FadeDownTime = "20" FadeUpTime = "20" TimeOut =
+  "00:01:37:229" TimeIn = "00:01:36:198" SpotNumber =
+  "37" >< Image VPosition = "5.7" VAlign = "bottom" HAlign =
+  "center" > DYATLOV TR_37.png < /Image >< /Subtitle >
+  -<Subtitle FadeDownTime = "20" FadeUpTime = "20" TimeOut =
+  "00:01:46:198" TimeIn = "00:01:45:083" SpotNumber =
+  "38" >< Image VPosition = "5.7" VAlign = "bottom" HAlign =
+  "center" > DYATLOV TR_38.png < /Image >< /Subtitle >
+  -<Subtitle FadeDownTime = "20" FadeUpTime = "20" TimeOut =
+  "00:01:49:093" TimeIn = "00:01:46:229" SpotNumber =
+  "39" >< Image VPosition = "5.7" VAlign = "bottom" HAlign =
+  "center" > DYATLOV TR_39.png < /Image >< /Subtitle >< /DCSubtitle >

@@ -1,0 +1,12 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+includedir=@includedir@
+
+Name: asdcplib
+Url: http://www.cinecert.com/asdcplib
+Description: The ASDCP Library
+Requires: openssl > 0.9.7
+Version: @PACKAGE_VERSION@
+Libs: -L${libdir} -lasdcp -lkumu
+Cflags: -I${includedir}

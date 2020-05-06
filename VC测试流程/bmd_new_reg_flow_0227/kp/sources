@@ -1,0 +1,9 @@
+# The sources for the kernel plugin sample:
+TARGETNAME=KP_VRTX5
+TARGETTYPE=DRIVER
+TARGETPATH=obj
+NO_SAFESEH=1
+USER_C_FLAGS=-DWINNT -D__KERNEL__ 
+INCLUDES=$(WD_BASEDIR)\include;$(WD_BASEDIR)
+TARGETLIBS=$(WD_BASEDIR)\lib\kp_nt1000.lib $(WD_BASEDIR)\lib\kp_wdapi1000.lib
+SOURCES=kp_vrtx5.c ..\virtex5_lib.c kp_vrtx5.rc

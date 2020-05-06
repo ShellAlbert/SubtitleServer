@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated on 2006-09-013 by jhurst+emacs -->
+<DCSubtitle Version="1.0">
+  <SubtitleID>a00ccb11-62d4-46b1-bd05-c14b86bea9d7</SubtitleID>
+  <MovieTitle>Dieyingchongchong3</MovieTitle>
+  <ReelNumber>1</ReelNumber>
+  <Language>Chinese</Language>
+  <LoadFont Id="simhei" URI="wqy-microhei.ttc" />
+  <Font Id="simhei" Color="9F123456" Weight="normal" Size="40" >
+  <Subtitle SpotNumber="1" TimeIn="00:00:00:00" TimeOut="00:00:07:105">
+   <Image VAlign="top" VPosition="1" HAlign="left" HPosition="1" >redstar.png</Image>
+  </Subtitle>
+</Font>
+</DCSubtitle>

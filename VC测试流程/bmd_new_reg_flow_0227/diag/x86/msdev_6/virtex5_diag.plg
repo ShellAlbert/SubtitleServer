@@ -1,0 +1,81 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: virtex5_diag - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\xp\LOCALS~1\Temp\RSP2C7.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /Zi /Od /I "../../../../../..//include" /I "../../../../../../" /D "i386" /D "WD_DRIVER_NAME_CHANGE" /D "_DEBUG" /D "WIN32" /D "_MT" /D "_CONSOLE" /D "_MBCS" /FR"Debug/" /Fo"Debug/" /Fd"Debug/" /FD /EHsc /c 
+"C:\WinDriver\samples\shared\diag_lib.c"
+"C:\WinDriver\samples\shared\pci_diag_lib.c"
+"C:\WinDriver\samples\shared\print_struct.c"
+"C:\WinDriver\xilinx\virtex5\bmd\diag\virtex5_diag.c"
+"C:\WinDriver\xilinx\virtex5\bmd\virtex5_lib.c"
+"C:\WinDriver\samples\shared\wdc_diag_lib.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\xp\LOCALS~1\Temp\RSP2C7.tmp" 
+Creating temporary file "C:\DOCUME~1\xp\LOCALS~1\Temp\RSP2C8.tmp" with contents
+[
+wdapi1000.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/virtex5_diag.pdb" /debug /machine:I386 /out:"Debug/virtex5_diag.exe" /pdbtype:sept /libpath:"..\..\..\..\..\..\lib\x86\\" 
+.\Debug\diag_lib.obj
+.\Debug\pci_diag_lib.obj
+.\Debug\print_struct.obj
+.\Debug\virtex5_diag.obj
+.\Debug\virtex5_lib.obj
+.\Debug\wdc_diag_lib.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\xp\LOCALS~1\Temp\RSP2C8.tmp"
+<h3>Output Window</h3>
+Compiling...
+diag_lib.c
+pci_diag_lib.c
+print_struct.c
+virtex5_diag.c
+C:\WinDriver\xilinx\virtex5\bmd\diag\virtex5_diag.c(150) : warning C4101: 'rdata' : unreferenced local variable
+C:\WinDriver\xilinx\virtex5\bmd\diag\virtex5_diag.c(148) : warning C4101: 'i' : unreferenced local variable
+C:\WinDriver\xilinx\virtex5\bmd\diag\virtex5_diag.c(149) : warning C4101: 'j' : unreferenced local variable
+C:\WinDriver\xilinx\virtex5\bmd\diag\virtex5_diag.c(386) : warning C4101: 'k' : unreferenced local variable
+C:\WinDriver\xilinx\virtex5\bmd\diag\virtex5_diag.c(404) : warning C4101: 'LowerAddr_data' : unreferenced local variable
+C:\WinDriver\xilinx\virtex5\bmd\diag\virtex5_diag.c(419) : warning C4101: 'total_len' : unreferenced local variable
+C:\WinDriver\xilinx\virtex5\bmd\diag\virtex5_diag.c(401) : warning C4101: 'i' : unreferenced local variable
+C:\WinDriver\xilinx\virtex5\bmd\diag\virtex5_diag.c(413) : warning C4101: 'vframe' : unreferenced local variable
+C:\WinDriver\xilinx\virtex5\bmd\diag\virtex5_diag.c(406) : warning C4101: 'INIT_DATA' : unreferenced local variable
+C:\WinDriver\xilinx\virtex5\bmd\diag\virtex5_diag.c(1437) : warning C4101: 'dma_len' : unreferenced local variable
+C:\WinDriver\xilinx\virtex5\bmd\diag\virtex5_diag.c(1436) : warning C4101: 'dwOptions' : unreferenced local variable
+C:\WinDriver\xilinx\virtex5\bmd\diag\virtex5_diag.c(1458) : warning C4101: 'filename' : unreferenced local variable
+C:\WinDriver\xilinx\virtex5\bmd\diag\virtex5_diag.c(1452) : warning C4101: 'file_len' : unreferenced local variable
+C:\WinDriver\xilinx\virtex5\bmd\diag\virtex5_diag.c(1455) : warning C4101: 'BDATA' : unreferenced local variable
+C:\WinDriver\xilinx\virtex5\bmd\diag\virtex5_diag.c(1442) : warning C4101: 'loop' : unreferenced local variable
+C:\WinDriver\xilinx\virtex5\bmd\diag\virtex5_diag.c(1439) : warning C4101: 'LowerAddr_data' : unreferenced local variable
+C:\WinDriver\xilinx\virtex5\bmd\diag\virtex5_diag.c(1454) : warning C4101: 'total_len' : unreferenced local variable
+C:\WinDriver\xilinx\virtex5\bmd\diag\virtex5_diag.c(1443) : warning C4101: 'video_fileindex' : unreferenced local variable
+C:\WinDriver\xilinx\virtex5\bmd\diag\virtex5_diag.c(1436) : warning C4101: 'dwStatus' : unreferenced local variable
+C:\WinDriver\xilinx\virtex5\bmd\diag\virtex5_diag.c(1449) : warning C4101: 'vframe_flag' : unreferenced local variable
+C:\WinDriver\xilinx\virtex5\bmd\diag\virtex5_diag.c(1447) : warning C4101: 'frame' : unreferenced local variable
+C:\WinDriver\xilinx\virtex5\bmd\diag\virtex5_diag.c(1438) : warning C4101: 'LowerAddr' : unreferenced local variable
+C:\WinDriver\xilinx\virtex5\bmd\diag\virtex5_diag.c(1436) : warning C4101: 'i' : unreferenced local variable
+C:\WinDriver\xilinx\virtex5\bmd\diag\virtex5_diag.c(1453) : warning C4101: 'pad_len' : unreferenced local variable
+C:\WinDriver\xilinx\virtex5\bmd\diag\virtex5_diag.c(1448) : warning C4101: 'vframe' : unreferenced local variable
+C:\WinDriver\xilinx\virtex5\bmd\diag\virtex5_diag.c(1444) : warning C4101: 'audio_fileindex' : unreferenced local variable
+C:\WinDriver\xilinx\virtex5\bmd\diag\virtex5_diag.c(1456) : warning C4101: 'k' : unreferenced local variable
+C:\WinDriver\xilinx\virtex5\bmd\diag\virtex5_diag.c(1451) : warning C4101: 'header_len' : unreferenced local variable
+C:\WinDriver\xilinx\virtex5\bmd\diag\virtex5_diag.c(1441) : warning C4101: 'INIT_DATA' : unreferenced local variable
+virtex5_lib.c
+C:\WinDriver\xilinx\virtex5\bmd\virtex5_lib.c(457) : warning C4028: formal parameter 2 different from declaration
+C:\WinDriver\xilinx\virtex5\bmd\virtex5_lib.c(457) : warning C4029: declared formal parameter list different from definition
+C:\WinDriver\xilinx\virtex5\bmd\virtex5_lib.c(458) : warning C4101: 'tlps' : unreferenced local variable
+C:\WinDriver\xilinx\virtex5\bmd\virtex5_lib.c(540) : warning C4029: declared formal parameter list different from definition
+wdc_diag_lib.c
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+virtex5_diag.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

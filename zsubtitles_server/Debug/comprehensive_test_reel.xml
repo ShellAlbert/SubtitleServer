@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated on 2006-09-013 by jhurst+emacs -->
+<DCSubtitle Version="1.0"
+     xmlns="http://digicine.com/xml-schema/ad-hoc/ti-dc-subtitle"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://digicine.com/xml-schema/ad-hoc/ti-dc-subtitle ../ti.xsd">
+  <SubtitleID>fd821d73-3cc3-46b2-aacc-44e3a7f3f525</SubtitleID>
+  <MovieTitle>Comprehensive Test Reel</MovieTitle>
+  <ReelNumber>1</ReelNumber>
+  <Language>English</Language>
+
+  <Subtitle SpotNumber="1" TimeIn="00:00:10:000" TimeOut="00:00:10:200">
+    <Text VAlign="bottom" VPosition="22">Nine</Text>
+    <Image HAlign="left" HPosition="22" VAlign="bottom" VPosition="22">CountDownSub-9.png</Image>
+  </Subtitle>
+
+  <Subtitle SpotNumber="2" TimeIn="00:00:11:000" TimeOut="00:00:11:200">
+    <Text VAlign="bottom" VPosition="22">Eight</Text>
+    <Image HAlign="left" HPosition="22" VAlign="bottom" VPosition="22">CountDownSub-8.png</Image>
+  </Subtitle>
+
+  <Subtitle SpotNumber="3" TimeIn="00:00:12:000" TimeOut="00:00:12:200">
+    <Text VAlign="bottom" VPosition="22">Seven</Text>
+    <Image HAlign="left" HPosition="22" VAlign="bottom" VPosition="22">CountDownSub-7.png</Image>
+  </Subtitle>
+
+  <Subtitle SpotNumber="4" TimeIn="00:00:13:000" TimeOut="00:00:13:200">
+    <Text VAlign="bottom" VPosition="22">Six</Text>
+    <Image HAlign="left" HPosition="22" VAlign="bottom" VPosition="22">CountDownSub-6.png</Image>
+  </Subtitle>
+
+  <Subtitle SpotNumber="5" TimeIn="00:00:14:000" TimeOut="00:00:14:200">
+    <Text VAlign="bottom" VPosition="22">Five</Text>
+    <Image HAlign="left" HPosition="22" VAlign="bottom" VPosition="22">CountDownSub-5.png</Image>
+  </Subtitle>
+
+  <Subtitle SpotNumber="6" TimeIn="00:00:15:000" TimeOut="00:00:15:200">
+    <Text VAlign="bottom" VPosition="22">Four</Text>
+    <Image HAlign="left" HPosition="22" VAlign="bottom" VPosition="22">CountDownSub-4.png</Image>
+  </Subtitle>
+
+  <Subtitle SpotNumber="7" TimeIn="00:00:16:000" TimeOut="00:00:16:200">
+    <Text VAlign="bottom" VPosition="22">Three</Text>
+    <Image HAlign="left" HPosition="22" VAlign="bottom" VPosition="22">CountDownSub-3.png</Image>
+  </Subtitle>
+
+  <Subtitle SpotNumber="8" TimeIn="00:00:17:000" TimeOut="00:00:17:200">
+    <Text VAlign="bottom" VPosition="22">Two</Text>
+    <Image HAlign="left" HPosition="22" VAlign="bottom" VPosition="22">CountDownSub-2.png</Image>
+  </Subtitle>
+
+  <Subtitle SpotNumber="9" TimeIn="00:00:18:000" TimeOut="00:00:18:200">
+    <Text VAlign="bottom" VPosition="22">One</Text>
+    <Image HAlign="left" HPosition="22" VAlign="bottom" VPosition="22">CountDownSub-1.png</Image>
+  </Subtitle>
+
+  <Subtitle SpotNumber="10" TimeIn="00:00:19:000" TimeOut="00:00:19:200">
+    <Text VAlign="bottom" VPosition="22">Zero</Text>
+    <Image HAlign="left" HPosition="22" VAlign="bottom" VPosition="22">CountDownSub-0.png</Image>
+  </Subtitle>
+
+  <Subtitle SpotNumber="11" TimeIn="00:00:20:000" TimeOut="00:00:24:200">
+    <Text VAlign="bottom" VPosition="22">Left</Text>
+    <Image HAlign="left" HPosition="22" VAlign="bottom" VPosition="22">CountDownSub_ch_L.png</Image>
+  </Subtitle>
+
+  <Subtitle SpotNumber="12" TimeIn="00:00:25:000" TimeOut="00:00:29:200">
+    <Text VAlign="bottom" VPosition="22">Center</Text>
+    <Image HAlign="left" HPosition="22" VAlign="bottom" VPosition="22">CountDownSub_ch_C.png</Image>
+  </Subtitle>
+
+  <Subtitle SpotNumber="13" TimeIn="00:00:30:000" TimeOut="00:00:34:200">
+    <Text VAlign="bottom" VPosition="22">Right</Text>
+    <Image HAlign="left" HPosition="22" VAlign="bottom" VPosition="22">CountDownSub_ch_R.png</Image>
+  </Subtitle>
+
+  <Subtitle SpotNumber="14" TimeIn="00:00:35:000" TimeOut="00:00:39:200">
+    <Text VAlign="bottom" VPosition="22">Left Surround</Text>
+    <Image HAlign="left" HPosition="22" VAlign="bottom" VPosition="22">CountDownSub_ch_LS.png</Image>
+  </Subtitle>
+
+  <Subtitle SpotNumber="15" TimeIn="00:00:40:000" TimeOut="00:00:44:200">
+    <Text VAlign="bottom" VPosition="22">Right Surround</Text>
+    <Image HAlign="left" HPosition="22" VAlign="bottom" VPosition="22">CountDownSub_ch_RS.png</Image>
+  </Subtitle>
+
+  <Subtitle SpotNumber="16" TimeIn="00:00:45:000" TimeOut="00:00:49:200">
+    <Text VAlign="bottom" VPosition="22">LFE</Text>
+    <Image HAlign="left" HPosition="22" VAlign="bottom" VPosition="22">a.png</Image>
+  </Subtitle>
+
+</DCSubtitle>
