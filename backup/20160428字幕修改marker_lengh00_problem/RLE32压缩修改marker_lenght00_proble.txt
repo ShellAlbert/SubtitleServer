@@ -1,0 +1,264 @@
+zint32_t zrle32_compress(zint32_t *src, zuint32_t src_len_byte, zint8_t *dest, zuint32_t dest_len)
+{
+	zint32_t tindex;
+	zuint32_t rd_pos;    ///<read position for src.
+	zuint32_t wr_pos;    ///<write position for dest.
+	zuint32_t repeat_times;
+	zuint8_t times_part, times_rest;
+
+	/**
+	 * for marker.
+	 */
+	zint32_t marker_table[0xFF + 1];    ///<counter for 0x00~0xFF
+	zuint8_t *pchar;
+	zuint8_t index_marker;
+	zuint32_t i;
+	zuint32_t src_len_int;    ///<byte to int.
+	zuint32_t tTempData1, tTempData2;
+
+	/**
+	 * check valid of parameters.
+	 */
+	if (src == NULL || src_len_byte <= 0 || dest == NULL || dest_len <= 0)
+	{
+		ZPrintError("invalid parameters!\n");
+		return -1;
+	}
+
+	/**
+	 * find the least common byte as the marker.
+	 */
+	memset(marker_table, 0, sizeof(marker_table));
+	pchar = (zuint8_t*) src;
+
+	/**
+	 * check the original data in byte format.
+	 */
+#if (ZDBG_LEVEL & ZDBG_RLE32)
+	for (index = 0; index < src_len_byte; index++)
+	{
+		printf ("%02x ", pchar[index]);
+	}
+	printf ("\n");
+#endif
+
+	/**
+	 * counter the times each byte appears..
+	 * only search the Alpha byte.
+	 */
+	printf("src_len_byte:%d\n", src_len_byte);
+	for (tindex = 0; tindex < src_len_byte; tindex++)
+	{
+		tTempData1 = pchar[tindex];
+		marker_table[tTempData1] += 0x1;
+	}
+
+	/**
+	 * print out count times for each byte from 0x00~0xFF.
+	 */
+#if (0)
+	for (tindex = 0; tindex <= 0xFF; tindex++)
+	{
+		if (marker_table[tindex])
+		{
+			printf ("marker_table[0x%x]=%d\n", tindex, marker_table[tindex]);
+		}
+	}
+#endif
+
+	/**
+	 * find the least counter index,
+	 * use it as the common marker.
+	 */
+	index_marker = 0;
+	for (tindex = 0; tindex <= 0xFF; tindex++)
+	{
+		if (marker_table[tindex] < marker_table[index_marker])
+		{
+			index_marker = tindex;
+		}
+	}
+
+//#if (ZDBG_LEVEL & ZDBG_RLE32)
+	printf("the least common marker is :0x%x, times=%d\n", index_marker, marker_table[index_marker]);
+	if (0 != marker_table[index_marker])
+	{
+		/**
+		 * Alpha plus 0x1 to avoid the same as the marker.
+		 */
+		printf("trying to repaint...\n");
+		for (i = 0; i < src_len_byte / sizeof(int); i++)
+		{
+			tTempData1 = (src[i] & 0x000000FF);
+			tTempData2 = index_marker;
+			if (tTempData1 == tTempData2)
+			{
+				printf("Change alpha to avoid marker saming.position=%d\n", i);
+				printf("old:0x%x\n", src[i]);
+				if (0xff == tTempData1)
+				{
+					src[i] = (src[i] & 0xFFFFFF00) | ((tTempData1 - 1) & 0x000000FF);
+				}
+				else
+				{
+					src[i] = (src[i] & 0xFFFFFF00) | ((tTempData1 + 1) & 0x000000FF);
+				}
+				printf("new:0x%x\n", src[i]);
+			}
+		}
+	}
+#if 0
+	FILE *fp;
+	char buffer[256];
+	sprintf (buffer, "alpha.repair");
+	fp = fopen (buffer, "w");
+	if (NULL != fp)
+	{
+		fwrite (pchar, src_len_byte, 1, fp);
+		fclose (fp);
+	}
+#endif
+//#endif
+
+	/**
+	 * run length encoding,compress data begin.
+	 */
+	rd_pos = 0;
+	wr_pos = 0;
+	repeat_times = 0;
+
+	/**
+	 * the parameter src_len is in byte format,
+	 * but we compress data in 32-bit unit,
+	 * so here convert byte to int.
+	 */
+	src_len_int = src_len_byte / sizeof(zint32_t);
+//  printf ("src_len_int=%d/4=%d\n", src_len_byte, src_len_int);
+#if 0
+	FILE *fp1;
+	zuint32_t inde = 0;
+	char buffer[1024];
+	static int fileIndex=0;
+	fileIndex++;
+	sprintf(buffer,"%d.data",fileIndex);
+	fp1 = fopen (buffer, "w");
+	if (fp1 != NULL)
+	{
+		for (inde = 0; inde < src_len_int; inde++)
+		{
+			fprintf (fp1, "%08x\n",  src[inde]);
+		}
+		fclose (fp1);
+	}
+#endif
+
+	/**
+	 * use the first byte [0] to hold the common marker.
+	 * the uncompress function should use the first byte as the common marker
+	 * to uncompress data.
+	 */
+	dest[wr_pos++] = index_marker;
+
+	/**
+	 * loop to compress.
+	 */
+	do
+	{
+		//check the index valid.
+		if(rd_pos>=src_len_int)
+		{
+			break;
+		}
+		//count repeat times.
+		repeat_times = 0; //reset.
+		while (rd_pos < src_len_int)
+		{
+			if (src[rd_pos] == src[rd_pos + 1])
+			{
+				repeat_times++; ///<counter.
+				rd_pos++; ///<shift read position
+			}
+			else
+			{
+				break;
+			}
+		}
+		if(repeat_times>0)
+		{
+			repeat_times++; //add itself.
+		}
+
+		/**
+		 * do not compress when repeat times less than 2 times.
+		 * keep data original.
+		 * we count from 0,so here is 2-1.
+		 */
+		if (0 == repeat_times)
+		{
+			//do not need to compress,keep original data.
+			zint32x1_to_char8x4(src[rd_pos], &dest[wr_pos]);
+			wr_pos += sizeof(zuint8_t) * 4;
+		}
+		else
+		{
+			// 8-bit: marker, 8-bit:repeat times,32-bit:repeat data.
+			times_part = repeat_times / 0xFF;
+			times_rest = repeat_times % 0xFF;
+			for (i = 0; i < times_part; i++)
+			{
+				dest[wr_pos++] = index_marker; //marker.
+				dest[wr_pos++] = 0xFF - 1;	      //length.
+				zint32x1_to_char8x4(src[rd_pos], &dest[wr_pos]); //data.
+				wr_pos += sizeof(zuint8_t) * 4;
+			}
+
+			//handle the rest data.
+			if (times_rest > 0 && times_rest == 1)
+			{
+				//only repeat itself,keep original data.
+				zint32x1_to_char8x4(src[rd_pos], &dest[wr_pos]);
+				wr_pos += sizeof(zuint8_t) * 4;
+			}
+			else if (times_rest > 0 && times_rest > 1)
+			{
+				dest[wr_pos++] = index_marker; //marker.
+				dest[wr_pos++] = times_rest - 1;	//length.
+				zint32x1_to_char8x4(src[rd_pos], &dest[wr_pos]); //data.
+				wr_pos += sizeof(zuint8_t) * 4;
+			}
+		}
+		/**
+		 * move read position to next section.
+		 * reset for next counter.
+		 */
+		if (rd_pos >=src_len_int)
+		{
+			break;
+		}
+		rd_pos++; //move to next.
+	} while (1);
+
+	/**
+	 * compress finish.
+	 */
+#if (ZDBG_LEVEL & ZDBG_RLE32)
+	printf ("compress data after RLE32:wr_pos=%d\n", wr_pos);
+#endif
+
+#if 0
+	FILE *fp2;
+	zuint32_t inde2 = 0;
+	char buffer2[1024];
+	sprintf(buffer2,"%d.hex",fileIndex);
+	fp2 = fopen (buffer2, "w");
+	if (fp2 != NULL)
+	{
+		for (inde2 = 0; inde2 < wr_pos; inde2++)
+		{
+			fprintf (fp2, "%x\n",  dest[inde2]);
+		}
+		fclose (fp2);
+	}
+#endif
+	return (wr_pos);
+}
