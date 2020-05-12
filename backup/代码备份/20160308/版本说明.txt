@@ -1,0 +1,20 @@
+版本说明：
+增加SubtitleDecoder::sendSubtitleFile(timeOffset)
+这个参数的处理，
+将这个参数在SDK端整合进xml frame type,
+由SDK传输给IMB Server -> PCIe->FPGA->ARM
+ARM接收到后，转换为帧数
+timeOffset=帧数*90K/帧率
+
+那么ARM侧的SubtitleServer程序需要还原为
+帧数则使用下列公式
+帧数＝timeOffset*频率/90K
+
+SubtitleServer处理每一个SpotNumber时，会将它的TimeIn转换为帧数
+跟这个timeOffset比对，若TimeIn<timeOffset则不处理，直接跳到下一个SpotNumber.
+已经测试成功了，可以自动跳过之前的SpotNumber不处理。
+
+libimbsdk代表SDK，包含测试程序
+IMBServer表示x86主板上的转发服务器
+SubtileServer表示 字幕处理服务器
+
